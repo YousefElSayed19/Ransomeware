@@ -15,7 +15,7 @@ c = AES.new(key,AES.MODE_CTR,counter=counter)
 word = "hi this is encryption"
 
 encrypted_word = c.encrypt(word.encode('ascii'))
-
+  
 
 
 
